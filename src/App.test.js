@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import Banner from "./Components/Banner/index";
 import Navbar, { linkList } from "./Components/Banner/Navbar/index";
 import Explore from "./Components/Explore";
-import { aboutSection, exploreSection } from "./data";
+import { exploreSection } from "./data";
 
 describe("Run App", () => {
   test("render Banner and check the banner title", () => {
