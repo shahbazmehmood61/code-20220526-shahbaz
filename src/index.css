@@ -281,7 +281,7 @@ body {
   }
 
   .banner__container {
-    height: 80vh;
+    height: 85vh;
   }
 
   .banner__filter__box {
@@ -308,7 +308,7 @@ body {
 
 @media screen and (max-width: 870px) {
   .banner__container {
-    height: 80vh;
+    height: 85vh;
   }
 
   .banner__box__header {
@@ -318,7 +318,13 @@ body {
 
 @media screen and (max-width: 600px) {
   .banner__container {
-    height: 70vh;
+    height: 80vh;
+  }
+
+  .banner__box {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .banner__box__header {

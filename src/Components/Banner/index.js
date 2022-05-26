@@ -25,7 +25,7 @@ function Index() {
             <input className="filter__input width__100" />
           </div>
           <button className="filter__search__btn">
-            <i class="fa fa-search" aria-hidden="true"></i>
+            <i className="fa fa-search" aria-hidden="true"></i>
             &nbsp;&nbsp;Search
           </button>
         </div>
