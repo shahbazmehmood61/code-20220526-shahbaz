@@ -40,7 +40,7 @@ function Index({ isDark }) {
 
 export default Index;
 
-const linkList = [
+export const linkList = [
   { link: "Explore", route: "/" },
   { link: "About Us", route: "/" },
   { link: "Cities", route: "/" },

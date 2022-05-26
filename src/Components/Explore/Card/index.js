@@ -2,7 +2,7 @@ import React from "react";
 
 function Index(props) {
   return (
-    <div className="explore__card">
+    <div className="explore__card" id={`card_${props.index}`}>
       <img src={props.list?.source} alt="Card Pic" />
       <div
         className={`explore__card__bottom__box flex row justify__between items__end ${
